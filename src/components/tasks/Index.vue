@@ -1,5 +1,6 @@
 <template>
   <div class="tasks">
+    <a href="tasks/new">New</a>
     <ul id="example-1">
       <li :key='task.id' v-for="task in tasks" v-if="task.status == 'open'">
         {{ task.title }}
